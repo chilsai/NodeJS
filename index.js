@@ -25,7 +25,7 @@ app.get('/db', function(request, response) {
   response.render('pages/db',{results:drinks});
 });
 
-// Start the Server
+// Start the Server with Comments
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
